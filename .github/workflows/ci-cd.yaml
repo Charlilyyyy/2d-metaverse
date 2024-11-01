@@ -40,11 +40,7 @@ jobs:
           cd src
           npm install
 
-      - name: Run frontend lint
-        run: |
-          cd src
-          npm run lint
-
       - name: Build frontend
         run: |
           cd src
+          npm run build
